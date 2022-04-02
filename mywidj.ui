@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MyWidj</class>
+ <widget class="QWidget" name="MyWidj">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1010</width>
+    <height>686</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1010</width>
+    <height>686</height>
+   </size>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>release/logo_niivk.gif</normaloff>release/logo_niivk.gif</iconset>
+  </property>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1008</width>
+     <height>685</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1008</width>
+     <height>685</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1008</width>
+     <height>685</height>
+    </size>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
